@@ -1,0 +1,103 @@
+/*
+<div class="big-circle">
+<div class="big-circle-inside"></div>
+<div class="big-circle-inside-1"></div>
+<div class="big-circle-2-inside"></div>
+<div class="big-circle-2-inside-1"></div>
+<div class="big-circle-3-inside"></div>
+<div class="big-circle-3-inside-1"></div>
+<div class="big-circle-4-inside"></div>
+<div class="big-circle-4-inside-1"></div>
+</div>
+*/
+
+
+body {
+    background: #191919;
+    margin: 0px;
+}
+
+.big-circle {
+    left: 100px;
+    top: 50px;
+    position: absolute;
+}
+
+.big-circle-inside {
+    top: 50px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #F9E492;
+    border-radius: 800px 0 0;
+}
+
+.big-circle-inside-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: #F9E492;
+    border-radius: 0 800px 0 0;
+}
+
+.big-circle-2-inside {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #4F77FF;
+    top: 50px;
+    left: 100px;
+    border-radius: 0 0 800px 0;
+}
+
+.big-circle-2-inside-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #4F77FF;
+    left: 100px;
+    border-radius: 0 800px 0 0;
+}
+
+.big-circle-3-inside {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #4F77FF;
+    top: 100px;
+    left: 50px;
+    border-radius: 800px 0 0 0;
+}
+
+.big-circle-3-inside-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #4F77FF;
+    top: 150px;
+    left: 50px;
+    border-radius: 0 0 0 800px;
+}
+
+.big-circle-4-inside {
+    left: 100px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #F9E492;
+    top: 100px;
+    left: 100px;
+    border-radius: 0 0 0 800px;
+}
+
+.big-circle-4-inside-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #F9E492;
+    top: 100px;
+    left: 150px;
+    border-radius: 0 0 800px 0;
+}

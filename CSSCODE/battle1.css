@@ -1,0 +1,42 @@
+/*
+HTML:
+<div class="circle"></div>
+<div class="rectangle"></div>
+<div class="quarter"></div>
+*/
+
+body {
+    background: #19191A;
+    margin: 0px;
+    position: relative;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: #4F77FF;
+    top: 50px;
+    left: 125px;
+    position: absolute;
+    border-radius: 200px;
+}
+
+.quarter {
+    margin: 0px;
+    position: absolute;
+    border-radius: 0 0 0 200px;
+    width: 75px;
+    height: 75px;
+    background: #9AD5FF;
+    top: 125px;
+    left: 125px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 75px;
+    height: 125px;
+    background: #F9E492;
+    top: 125px;
+    left: 125px;
+}
