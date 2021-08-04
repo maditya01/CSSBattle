@@ -1,0 +1,52 @@
+/*
+div class="quater"></div>
+<div class="half-1"></div>
+<div class="half-2"></div>
+<div class="small-circle"></div>
+*/
+
+
+body {
+    background: #1A4341;
+    margin: 0px;
+}
+
+.quater {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 50px;
+    border-radius: 0 800px 0 0;
+    background: #F3AC3C;
+}
+
+.half-1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: #998235;
+    border-radius: 800px 0 0 0;
+    left: 125px;
+    top: 75px;
+}
+
+.half-2 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: #998235;
+    border-radius: 0 0 0 800px;
+    left: 125px;
+    top: 150px;
+}
+
+.small-circle {
+    position: absolute;
+    background: #0B2429;
+    width: 30px;
+    height: 30px;
+    left: 155px;
+    top: 105px;
+    border-radius: 800px;
+}
